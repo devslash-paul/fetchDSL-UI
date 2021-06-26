@@ -12,7 +12,8 @@ data class LoadedClass(val packageName: String, val className: String)
 
 class JarLibraryLoader {
 
-  val defaultFile = File("/Users/pault/.m2/repository/net/devslash/fetchdsl/api/0.19.2/api-0.19.2.jar")
+  private val defaultFile =
+    File("C:\\Users\\pault\\.gradle\\caches\\transforms-3\\4cdafc567c3374086b4ba84a093c758f\\transformed\\unzipped-distribution\\gradle-6.8\\subprojects\\docs\\src\\snippets\\webApplication\\customized\\groovy\\lib\\runtime-1.0.jar")
   private val source = File("~/.config/dsl")
 
   init {
